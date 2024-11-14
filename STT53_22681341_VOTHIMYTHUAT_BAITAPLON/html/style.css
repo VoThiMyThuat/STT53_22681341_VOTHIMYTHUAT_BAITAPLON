@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-navbar{
+    width: 100%;
+    height: 7vh;
+    background-color: #a9a9a926;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.top-icons{
+    margin-left: 45px;
+}
+.top-icons i{
+    font-size: 20px;
+    color: #1c1c50;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.other-links{
+    margin-right: 33px;
+}
+.other-links i{
+    color: #1c1c50;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#btn-login{
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-login a{
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+#btn-login a:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+#btn-login:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+#btn-signup{
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-signup a{
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+#btn-signup a:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+#btn-signup:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .top-icons{
+        margin-left: 30px;
+    }
+    .top-icons i{
+        font-size: 15px;
+    }
+    .other-links i{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 60px;
+        height: 5vh;
+    }
+    #btn-signup{
+        width: 70px;
+        height: 5vh;
+    }
+}
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 10px;
+    }
+    .top-icons i{
+        font-size: 10px;
+    }
+    .other-links{
+        margin-right: 10px;
+    }
+    .other-links i{
+        font-size: 10px;
+    }
+    #btn-login{
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
+    #btn-signup{
+        width: 60px;
+        height: 5vh;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 5px;
+    }
+    .top-icons i{
+        font-size: 12px;
+    }
+    .other-links{
+        margin-right: 10px;
+    }
+    .other-links i{
+        font-size: 12px;
+    }
+    #btn-login{
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    #btn-signup{
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+/* home section */
+.home-section{
+    width: 100%;
+    height: 93vh;
+    background-color: #a9a9a926;
+}
+/* navbar */
+#navbar{
+    background-color: #1c1c50;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar .nav-link{
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+#navbar .nav-link:hover{
+    color: white;
+    border-radius: 5px;
+}
+.dropdown li a{
+    color: white;
+}
+#search-btn{
+    color: white;
+    border:  1px solid white;
+}
+#search-btn:hover{
+    background-color: #1c1c50;
+}
+/* navbar */
+/* home content */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .img{
+    flex: 1 1 400px;
+}
+.home .img img{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.content h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: #1c1c50;
+    font-weight: bold;
+}
+.content h3 span{
+    font-size: 40px;
+}
+.content p{
+    margin-left: 70px;
+    color: #1c1c50;
+}
+.content #shopnow{
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid #1c1c50;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.content #shopnow:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+@media screen and (max-width:800px){
+    .content h3{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .content p{
+        margin-left: 50px;
+    }
+    .content #shopnow{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:570px){
+    .content h3{
+        margin-left: 20px;
+    }
+    .content p{
+        margin-left: 20px;
+    }
+    .content #shopnow{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:799px){
+    .home-section{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:550px){
+    .home-section{
+        height: 100vh;
+    }
+}
+/* home content */
+/* home section */
+
+/* top cards */
+#top-cards{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top-cards .card img{
+    height: 60vh;
+}
+#top-cards h5{
+    color: #1c1c50;
+    font-weight: bold;
+}
+/* Tiêu đề sản phẩm */
+#top-cards h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Đoạn văn mô tả */
+#top-cards p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Giá sản phẩm */
+#top-cards .price-info {
+    font-size: 0.8rem; /* Giảm kích thước từ 1rem xuống 0.8rem */
+    margin-bottom: 5px; /* Giảm khoảng cách */
+}
+
+#top-cards .price {
+    color: #1c1c50;
+    font-weight: bold;
+    font-size: 0.9rem; /* Giảm kích thước từ 1rem xuống 0.9rem */
+}
+
+#top-cards .old-price {
+    color: #ff4c4c;
+    text-decoration: line-through;
+    margin-left: 5px;
+    font-size: 0.8rem; /* Giảm kích thước từ 1rem xuống 0.8rem */
+}
+
+/* Nút đặt hàng */
+#top-cards button {
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    background: #1c1c50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#top-cards button:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+/* top cards */
+
+/* banner */
+.banner{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./image/banner.jpg);
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-size: cover; /* Phủ kín toàn bộ banner */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+/* banner */
+.banner .content h1,
+.banner2 .content2 h1,
+.banner3 .content3 h1,
+.banner4 .content4 h1,
+.banner5 .content5 h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    font-weight: bold; /* In đậm chữ */
+    font-size: 3rem;   /* Tăng kích thước chữ (thay đổi tùy ý) */
+}
+
+.banner .content p,
+.banner2 .content2 p,
+.banner3 .content3 p,
+.banner4 .content4 p,
+.banner5 .content5 p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    font-weight: bold; /* In đậm chữ */
+    font-size: 1.2rem; /* Tăng kích thước chữ (thay đổi tùy ý) */
+}
+.banner .content{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner .content h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner .content p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#bannerbtn button:hover{
+    background-color: #1c1c50;
+    border: none;
+}
+/* banner */
+/* banner2 */
+.banner2{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bn1.jpg);
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-size: cover; /* Phủ kín toàn bộ banner */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+.banner2 .content2{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner2 .content2 h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner2 .content2 p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn2 button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#bannerbtn2 button:hover{
+    background-color: #1c1c50;
+    border: none;
+}
+/* banner2 */
+/* banner3 */
+.banner3{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bn2.jpg);
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-size: cover; /* Phủ kín toàn bộ banner */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+.banner3 .content3{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner3 .content3 h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner3 .content3 p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn3 button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#bannerbtn3 button:hover{
+    background-color: #1c1c50;
+    border: none;
+}
+/* banner3 */
+
+/* banner4 */
+.banner4{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bn3.jpg);
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-size: cover; /* Phủ kín toàn bộ banner */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+.banner4 .content4{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner4 .content4 h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner4 .content4 p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn4 button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#bannerbtn4 button:hover{
+    background-color: #1c1c50;
+    border: none;
+}
+/* banner4 */
+
+/* banner5 */
+.banner5{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bn5.jpg);
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-size: cover; /* Phủ kín toàn bộ banner */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+.banner5 .content5{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner5 .content5 h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner5 .content5 p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn5 button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#bannerbtn5 button:hover{
+    background-color: #1c1c50;
+    border: none;
+}
+/* banner5 */
+
+/* product cards */
+#product-cards {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* Căn giữa các thẻ sản phẩm */
+    gap: 20px; /* Khoảng cách giữa các thẻ sản phẩm */
+    flex-wrap: wrap;
+}
+
+#product-cards .card {
+    width: 300px; /* Đảm bảo chiều rộng cố định cho các khung */
+    height: 450px; /* Cố định chiều cao để các khung có kích thước đều nhau */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between; /* Căn đều các phần trong khung */
+}
+
+#product-cards h1 {
+    margin-top: 30px;
+    color: #1c1c50;
+    text-shadow: 1px 1px 1px black;
+}
+
+#product-cards h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #1c1c50;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+}
+
+#product-cards h5 span {
+    float: right;
+    color: #1c1c50;
+    cursor: pointer;
+}
+
+.checked {
+    color: rgb(255, 187, 0);
+}
+
+#viewmorebtn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: #1c1c50;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+}
+
+#viewmorebtn:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+#product-cards img {
+    width: 100%;
+    height: 250px; /* Kích thước ảnh cố định */
+    object-fit: cover;
+}
+
+#product-cards .price {
+    font-size: 9px; /* Giảm cỡ chữ giá hiện tại */
+    color: #1c1c50;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#product-cards .original-price {
+    font-size: 8px; /* Giảm cỡ chữ giá gốc */
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+/* Chỉnh kích thước thẻ h5 trong phần card */
+.card h5 {
+    font-size: 0.9rem; /* Thay đổi kích thước tùy ý (ví dụ: 0.9rem) */
+    color: #1c1c50;
+    font-weight: bold;
+}
+
+
+
+/* product cards */
+
+
+
+
+
+
+
+/* offer */
+#offer {
+    width: 80%; /* Đặt chiều rộng cố định để căn giữa */
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa */
+    margin: 50px auto; /* Căn giữa theo chiều ngang và cách trên 50px */
+    padding: 20px; /* Thêm khoảng đệm cho khung nhìn đẹp hơn */
+    background-color: #f9f9f9; /* Màu nền nhẹ cho phần offer */
+    border-radius: 10px; /* Bo góc cho đẹp mắt */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+#offer i {
+    font-size: 60px;
+    color: #1c1c50;
+    margin-bottom: 15px; /* Thêm khoảng cách dưới biểu tượng */
+}
+
+#offer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1c50;
+    margin-bottom: 10px;
+}
+
+#offer p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* offer */
+
+/* footer */
+/* footer */
+#footer {
+    padding: 30px 0 30px 0; /* Thêm 30px khoảng cách trên */
+    color: #d0d0d0;
+    font-size: 16px;
+    background: #1c1c50;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify; /* Căn đều chữ trong phần footer */
+}
+
+#footer .footer-top .footer-contact h3,
+#footer .footer-top .footer-contact h4,
+#footer .footer-top .footer-contact p {
+    padding-left: 20px; /* Lùi chữ bên trong các phần tử này */
+}
+
+
+
+#footer a {
+    text-decoration: none; /* Bỏ dấu gạch chân dưới chữ */
+}
+
+#footer .footer-top .footer-contact h3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 24px;
+}
+
+#footer .footer-top .footer-contact h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+#footer .footer-top h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 5px 0;
+}
+
+#footer .footer-top .footer-links ul li a {
+    color: white;
+    line-height: 2;
+    text-align: justify; /* Căn đều chữ trong danh sách liên kết */
+}
+
+#footer .copyright {
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer .credits {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* footer */
+
+
+/* login */
+.login{
+    width: 50%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#side1{
+    background-color: #1c1c50;
+    height: 76vh;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#side1 h3{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+#side1 p{
+    color: white;    
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+#side2{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+}
+#side2 h3{
+    margin-top: 50px;
+    color: #1c1c50;
+    font-weight: bold;
+}
+#side2 .inp{
+    margin-top: 32px;
+}
+#side2 input{
+    width: 500px;
+    margin-top: 20px;
+    height: 36px;
+    align-items: center;
+}
+#side2 p{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#side2 .icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: white;
+    background-color: #1c1c50;
+    border: none;
+    font-weight: bold;
+}
+@media screen and (max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:330x){
+    #side2 input{
+        width: 200px;
+    }
+}
+/* login */
+
+/* about */
+#about{
+    margin-top: 50px;
+}
+#about h1{
+    text-align: center;    
+    font-weight: bold;
+    color: #1c1c50;
+}
+/* about */
+
+/* contact */
+#contact{
+    margin-top: 50px;
+}
+#contact h1{
+    color: #1c1c50;
+    text-shadow: 0px 0px 1px black;
+}
+#contact .card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #1c1c50;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #1c1c50;
+}#messagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#messagebtn button:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+/* contact */
